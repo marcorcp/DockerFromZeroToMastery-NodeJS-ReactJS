@@ -3,7 +3,7 @@ node_js:
   - 14
 before_install:
   - sudo apt-get update
-  - cd 02_Dockerized/frontend/
+  - cd frontend/
   - echo "Let's install Node Modules in Front-end!!!"
   - npm install
   - cd ../backend/
