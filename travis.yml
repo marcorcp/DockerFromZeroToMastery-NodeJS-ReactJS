@@ -4,10 +4,10 @@ node_js:
 before_install:
   - sudo apt-get update
   - cd frontend/
-  - echo "Let's install Node Modules in Front-end!!!"
+  - echo "Let's install Node Modules in Front-end!!!!!!"
   - npm install
   - cd ../backend/
-  - echo "Let's install Node Modules in Back-end!!!"
+  - echo "Let's install Node Modules in Back-end!!!!!!!"
   - npm install
   - cd ../
   - echo "We are in Docker Compose dir"
